@@ -1,0 +1,170 @@
+body{
+  background-color: #067066;
+  /* Typography Declarations */
+  color: #000000;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.centered-imgs{
+  width: 90%;
+  margin: 0px auto;
+}
+
+.four-img{
+  width: 45%;
+  display:inline-block;
+  height: 350px;
+  padding:.5%;
+}
+
+.img-left{
+  float:left;
+  display: inline-block;
+}
+
+.img-right{
+  float:right;
+  display: inline-block;
+}
+
+
+/*---------------about me styling---------------------*/
+
+
+.masthead-heading,
+.masthead-intro,
+.content-footer{
+  text-align: center;
+}
+
+.masthead{
+  padding: 6em 0;
+  background-image: url(http://i300.photobucket.com/albums/nn8/lyndiholzwarth/alejandroescamilla-book_zps72cbfc77.jpg) ;
+    background-width: cover;
+  -webkit-background-size: cover; /* Safari en Chrome */
+  -moz-background-size: cover; /*  Old Firefox */
+  -o-background-size: cover; /* Opera */
+  height: 18.75em;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-top: 1em solid #733426;
+  /*shadow*/
+	-webkit-box-shadow: 0 15px 10px -4px #42201A;
+	   -moz-box-shadow: 0 15px 10px -4px #42201A;
+	        box-shadow: 0 15px 10px -4px #42201A;
+}
+
+.masthead-intro{
+  /* layout declarations */
+  margin-bottom: 0.6em;
+  /* typography declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color:#42201A;
+  font-weight: bold;
+}
+
+.masthead-heading {
+  /* layout declarations */
+  margin-top: -0.2em;
+  /* typography declarations */
+  font-family:"Open Sans", "Helvetic Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #42201A;
+  text-shadow: 1px 1px 2px #000000;
+}
+  /* responsive fix header*/
+
+@media only screen and (max-width: 500px) {
+    .masthead{
+      padding 1.5em 0;
+      height: 9.38em;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+  
+}
+
+.introduction-section,
+.location-section, 
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 2em;
+}
+ /* responsive fix content*/
+
+@media only screen and (max-width: 700px){
+  .introduction-section,
+.location-section, 
+.questions-section {
+  padding: 0 1em;}
+}
+.social > li{
+  display: inline-block;
+  padding: 1.5em;
+}
+
+.introduction > p,
+.loction > p,
+.content-footer > p{
+  /*typography declarations*/
+  font-wegith: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2{
+  /*typography declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #733426;
+}
+
+section > h1 {
+  margin-top: 2em;
+  color: #42201A;
+}
+
+a{
+  color:#42201A;
+  font-weight: bold;
+}
+
+.content-footer{
+  border-top: solid #000000 1px;
+  background-color: #733426;
+  max-width: 100%;
+  margin-top: 3em;
+  padding: 1em;
+  color: #DAD9BE;
+}
+
+  /* responsive fix footer */
+
+@media only screen and (max-width: 500px)
+  {.content-footer{
+    padding: 1.5em;}}
+  
+  
+.content-footer > p > a {
+  color:#DAD9BE;
+  font-weight:bold;
+}
+
+.social > li > a {
+  color: #DAD9BE;
+  font-weight:bold;
+}
+
+.social > li > a:visited{
+    color: #DAD9BE;
+}
+.social{
+  padding-left:0px;
+}
