@@ -55,14 +55,76 @@ table {
 
 
 body{
-  background-color: #067066;
+  background-color: #F1F1F1;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: -.05em;
  }
+
+.nav-bar{
+  position: fixed;
+  width:100%;
+  height: 4.375rem;
+  z-index: 9999;
+}
+
+.bar{
+  background-color: #A4A4A4;
+  width:100%;
+  height: 3rem;
+  margin-top: 1.25rem;
+  position: fixed;
+  border-top: 1px solid #0C0D0D;
+  border-bottom: 1px solid #0C0D0D;
+}
+
+.nav-content{
+  height: 4.5rem;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin-top: -1.25rem;
+  width:90%;
+}
+
+.nav-content .nav-links{
+  float:right;
+  margin-top: 2.25rem;
+  font-size: 18px; 
+  color: #0C0D0D; 
+  font-weight: bold;
+}
+
+.nav-content .nav-links li{
+  display:inline-block;
+  margin-left: 25px;
+}
+
+.nav-content .nav-links li a{
+  text-decoration: none;
+  color: #0C0D0D; 
+  font-weight: bold;
+}
+
+.nav-content .nav-links li a:hover {
+  color: #067066; 
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.top-content{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+
+/*----------------four sqaures----------------*/
 
 .four-imgs{
   width:80%;
   margin: 0px auto;
   overflow: hidden;
-  padding-top: 5%;
+  margin-top: 5rem;
   padding-bottom: 5%;
 }
 
