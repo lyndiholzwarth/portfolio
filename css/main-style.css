@@ -55,7 +55,7 @@ table {
 
 
 body{
-  background-color: #F1F1F1;
+  background-color: #A4A4A4;
   font-family: 'Karla', sans-serif;
   letter-spacing: -.05em;
  }
@@ -75,12 +75,12 @@ body{
   position: fixed;
   border-top: 1px solid #0C0D0D;
   border-bottom: 1px solid #0C0D0D;
+  display: block;
 }
 
 .nav-content{
   height: 4.5rem;
   margin: 1rem auto;
-  box-sizing: border-box;
   padding: 0 1rem;
   margin-top: -1.25rem;
   width:90%;
@@ -111,11 +111,20 @@ body{
   cursor: pointer;
 }
 
+.body-content{
+  padding: 0 20px;
+  margin: 6em 3% 19em 3%;
+  background: #F1F1F1;
+  position:relative;
+  box-shadow: 0 .3em 1em #0C0D0D;
+}
+
 .top-content{
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 6rem;
+  display: inline-block;
 }
 
 /*----------------four sqaures----------------*/
