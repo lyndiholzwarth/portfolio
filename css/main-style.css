@@ -111,11 +111,11 @@ body{
   cursor: pointer;
 }
 
-.body-content{
-  padding: 0 20px;
-  margin: 6em 3% 19em 3%;
+.page-float{
+  padding: 20px;
+  margin: 6em 4% 19em 4%;
   background: #F1F1F1;
-  position:relative;
+  position:absolute;
   box-shadow: 0 .3em 1em #0C0D0D;
 }
 
@@ -123,8 +123,28 @@ body{
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 6rem;
-  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.04em;
+}
+
+.intro {
+  margin-top: -8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  position:absolute;
+  text-align: center;
+}
+
+h1 span{
+  background: rgba(241, 241, 241, .7);
+  padding: 10px;
 }
 
 /*----------------four sqaures----------------*/
