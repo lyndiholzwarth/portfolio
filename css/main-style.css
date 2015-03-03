@@ -220,9 +220,35 @@ h2{
 footer{
   background-color: #A4A4A4;
   border-top: 1px solid #0C0D0D;
-  height: 2rem;
 }
 
+.fa{
+  display:inline-block;
+  color:#067066;
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+.footer-text{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  color:#0C0D0D;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.footer-text a{
+  text-decoration: none;
+  color:#0C0D0D;
+}
+
+.footer-text a:hover{
+  color: #067066; 
+  font-weight: bolder;
+  cursor: pointer;
+}
 /*----------------four sqaures----------------*/
 
 .four-imgs{
