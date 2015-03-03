@@ -55,7 +55,8 @@ table {
 
 
 body{
-  background-color: #F1F1F1;
+  background-image: url ('../images/backgroundimg.jpg');
+  width:100%;
   font-family: 'Karla', sans-serif;
   letter-spacing: -.05em;
  }
@@ -163,6 +164,7 @@ hr{
   margin-left: 50%;
   margin-right: 50%;
   border: 1rem solid #F1F1F1;
+  background-color: #F1F1F1;
   box-shadow: 0 .3em 1em #0C0D0D;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -201,7 +203,7 @@ h2{
 
 footer{
   background-color: #A4A4A4;
-  border-top: 1rem solid #F1F1F1;
+  border-top: 1px solid #0C0D0D;
   height: 20rem;
 }
 
