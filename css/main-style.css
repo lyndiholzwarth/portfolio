@@ -249,6 +249,22 @@ footer{
   font-weight: bolder;
   cursor: pointer;
 }
+
+
+/*----------------additional gallery formating----------------*/
+
+.top-body-content{
+  width: 90%;
+  margin-left: 50%;
+  margin-right: 50%;
+  position: relative;
+  display: absolute;
+  border: 1rem solid #F1F1F1;
+  box-shadow: 0 .3em 1em #0C0D0D;
+  margin-bottom: 1rem;
+  margin-top:6rem;
+  transform: translate(-50%,0);
+}
 /*----------------four sqaures----------------*/
 
 .four-imgs{
