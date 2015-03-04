@@ -177,10 +177,11 @@ h1 span{
 
 .column{
   float:left;
+  width: 40%;
 }
 
 .column-img{
-  width: 100%;
+  width: 60%;
   float:left;
 }
 
