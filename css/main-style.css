@@ -100,6 +100,11 @@ body{
   font-weight: bold;
 }
 
+.nav-content .nav-links > .active {
+  color: #067066; 
+  font-weight: bolder;
+}
+
 .nav-content .nav-links li{
   display:inline-block;
   margin-left: 25px;
