@@ -71,6 +71,7 @@ body{
   height: 4.375rem;
   z-index: 9999;
   background-color: rgba(241, 241, 241, .7);
+  margin-top: -10rem;
 }
 
 .bar{
@@ -122,82 +123,91 @@ body{
   margin-top: -.75em;
 }
 
-/*---------------landing page---------------------*/
+/*---------------home page---------------------*/
 
-
-.top-content{
-  width: 90%;
-  margin-left: 50%;
-  margin-right: 50%;
+.content{
+  background-image: url('../images/DeathtoStock_CreativeCommunity3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+  padding-top: 5rem;
   position: relative;
-  display: absolute;
-  background-color: #F1F1F1;
-  border: 1rem solid #F1F1F1;
-  box-shadow: 0 .3em 1em #0C0D0D;
-  margin-bottom: 1rem;
-  margin-top:6rem;
-  transform: translate(-50%,0);
+  display: block;
+  overflow: auto;
 }
 
-
-
-.body-content{
-  width: 90%;
-  margin-left: 50%;
-  margin-right: 50%;
-  display: table;
-  position: relative;
-  border: 1rem solid #F1F1F1;
-  background-color: #F1F1F1;
-  box-shadow: 0 .3em 1em #0C0D0D;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  transform: translate(-50%,0);
-}
-
-.column{
-  float:left;
-  width: 40%;
-}
-
-.column-img{
-  width: 60%;
-  float:left;
-}
-
-.column-text{
-  text-align: center;
-  padding-top: 30%;
-  letter-spacing: 0.02em;
-}
-
-.body-content .left-img{
-  float:left;
-  display: inline-block;
-}
-
-h2{
-  font-size: 2.5em;
+h1{
+  font-size: 3em;
   font-weight: 700;
   letter-spacing: -.04em;
 }
 
-.body-content .right-txt{
-  float:right;
-  display: inline-block;
-  padding-top: 10%;
+.intro {
+  z-index: 9998;
+  margin-top: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  position:absolute;
+  text-align: center;
 }
 
-.body-content .right-img{
-  float:right;
-  display: inline-block;
+.text, p span{
+  background: rgba(241, 241, 241, .7);
+  padding: 10px;
 }
 
-.body-content .left-txt{
+.photo-credit{
+  float:right;
+  margin-top: 700px;
+  z-index: 9997;
+  font-size: 10px;
+}
+
+.photo-credit a{
+  color: #0C0D0D;
+  text-decoration: none;
+}
+
+.photo-credit a:hover{
+  color:#067066;
+  cursor: pointer;
+}
+
+.col-2{
+  display: block;
+}
+
+.column{
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.column-img, .sm-img{
+  width: 100%;
+}
+
+.column-text{
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+
+.left-img{
   float:left;
-  display: inline-block;
-  padding-top: 10%;
 }
+
+.right-img{
+  float:right;
+}
+
+/*---------------footer---------------------*/
 
 footer{
   background-color: #A4A4A4;
@@ -233,67 +243,35 @@ footer{
   font-weight: bolder;
   cursor: pointer;
 }
-/*--edit--*/
 
-.content{
-  background-image: url('../images/DeathtoStock_CreativeCommunity3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 80rem;
-  margin-bottom: 10rem;
-  padding-top: 5rem;
-}
-
-h1{
-  font-size: 3em;
-  font-weight: 700;
-  letter-spacing: -.04em;
-}
-
-.intro {
-  margin-top: 25rem;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
-  position:absolute;
-  text-align: center;
-}
-
-h1 span, p span{
-  background: rgba(241, 241, 241, .7);
-  padding: 10px;
-}
-
-.photo-credit{
-  float:right;
-  margin-top: 700px;
-}
-
-.photo-credit a{
-  color: #0C0D0D;
-  text-decoration: none;
-}
-
-.photo-credit a:hover{
-  color:#067066;
-  cursor: pointer;
-}
-
-.row{
-  margin-bottom: 5rem;
-  position: relative;
-}
-
-.sm-img{
-  width:100%;
-  position: relative;
-}
 
 
 /*----------------additional gallery formating----------------*/
 
+.top-content{
+  margin-top: 10rem;
+}
 
+.full-width{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.column-head{
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  padding: .5rem;
+  text-align: center;
+}
+
+.bottom-content{
+  margin-bottom: 15rem;
+}
+
+/*
 .top-body-content{
   width: 90%;
   margin-left: 50%;
@@ -308,14 +286,6 @@ h1 span, p span{
   transform: translate(-50%,0);
 }
 
-.column-head{
-  font-size: 2.5em;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  padding: .5rem;
-  text-align: center;
-}
-
 .column-body{
   font-size: 16px;
   font-weight: 200;
@@ -327,8 +297,9 @@ h1 span, p span{
   float:left;
   padding-top: 1rem;
 }
+*/
 
-/*----------------unused----------------*/
+/*----------------unused----------------
 
 hr{
   background-color: #A4A4A4;
@@ -395,3 +366,68 @@ hr{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.top-content{
+  width: 90%;
+  margin-left: 50%;
+  margin-right: 50%;
+  position: relative;
+  display: absolute;
+  background-color: #F1F1F1;
+  border: 1rem solid #F1F1F1;
+  box-shadow: 0 .3em 1em #0C0D0D;
+  margin-bottom: 1rem;
+  margin-top:6rem;
+  transform: translate(-50%,0);
+}
+
+.body-content{
+  width: 90%;
+  margin-left: 50%;
+  margin-right: 50%;
+  display: table;
+  position: relative;
+  border: 1rem solid #F1F1F1;
+  background-color: #F1F1F1;
+  box-shadow: 0 .3em 1em #0C0D0D;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transform: translate(-50%,0);
+}
+
+h2{
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: -.04em;
+}
+
+.body-content .right-txt{
+  float:right;
+  display: inline-block;
+  padding-top: 10%;
+}
+
+
+.body-content .left-txt{
+  float:left;
+  display: inline-block;
+  padding-top: 10%;
+}
+
+.row{
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+#digital{
+  width:100px;
+}
+
+#print{
+  width: 100px;
+}
+
+
+
+*/
