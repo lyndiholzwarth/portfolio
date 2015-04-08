@@ -194,8 +194,13 @@ span{
   margin-bottom: 1rem;
 }
 */
-.column-img, .sm-img{
+.column-w-img, .sm-img{
   width: 100%;
+}
+
+.column-w-img{
+  padding-left:60px;
+  padding-right: 60px;
 }
 
 .column-text{
@@ -259,11 +264,12 @@ footer{
   margin-top: 10rem;
 }
 
-.full-width{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.full-width-text{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  text-align: center;
 }
 
 .column-head{
@@ -274,8 +280,19 @@ footer{
   text-align: center;
 }
 
+.mid-content{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .bottom-content{
   margin-bottom: 15rem;
+}
+
+.column-para{
+  padding-left:30px;
+  padding-right: 60px;
+  text-align: left;
 }
 
 /*
