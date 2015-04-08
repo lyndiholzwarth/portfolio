@@ -197,6 +197,9 @@ span{
 .column-w-img, .sm-img{
   width: 100%;
 }
+.sm-img{
+  border: 1px solid #0C0D0D;
+}
 
 .column-w-img{
   padding-left:60px;
@@ -270,6 +273,7 @@ footer{
   margin-right: auto;
   position:relative;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .column-head{
@@ -293,6 +297,14 @@ footer{
   padding-left:30px;
   padding-right: 60px;
   text-align: left;
+  font-size: 1.5rem;
+}
+
+.skills{
+  position: absolute;
+  margin-top: -200px;
+  padding-left: 20%;
+  font-size: 20px;
 }
 
 /*

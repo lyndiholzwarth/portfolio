@@ -1,22 +1,13 @@
 $(document).ready(function(){
-//	$('#digital').mouseenter(function(){
-//		$('.content').hide();
-//		$('.digital-img').show();
-//	})
-//	.mouseleave(function(){
-//		$('.content').show();
-//		$('.digital-img').hide();
-//	});
-//
-//	$('#print').mouseenter(function(){
-//		$('.content').hide();
-//		$('print-img').show();
-//	})
-//	.mouseleave(function(){
-//		$('.content').show();
-//		$('.print-img').hide();
-//	});
+	$('.skills').hide();
 
+	$('.hover-area').mouseenter(function(){
+		$(this).fadeTo( "slow", 0.3 );
+		$('.skills').fadeTo("slow", 1);
+	});
 
-
+	$('.hover-area').mouseleave(function(){
+		$(this).fadeTo("slow", 1);
+		$('.skills').fadeTo("slow", 0);
+	});
 });
