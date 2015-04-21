@@ -71,14 +71,14 @@ body{
   height: 4.375rem;
   z-index: 9999;
   background-color: rgba(241, 241, 241, .7);
-  margin-top: -10rem;
+ 
 }
 
 .bar{
   background-color: #A4A4A4;
   width:100%;
-  height: 4rem;
-  margin-top: 2.5rem;
+  height: 40px;
+  margin-top: 30px;
   position: fixed;
   border-top: 1px solid #0C0D0D;
   border-bottom: 1px solid #0C0D0D;
@@ -90,7 +90,7 @@ body{
   height: 4.5rem;
   margin: 1rem auto;
   padding: 0 1rem;
-  margin-top: -1.25rem;
+  margin-top: -1.15rem;
   width:90%;
 }
 
@@ -107,23 +107,29 @@ body{
   margin-left: 25px;
 }
 
-.nav-content .nav-links li a{
+.nav-content .nav-links li a, a{
   text-decoration: none;
   color: #0C0D0D; 
   font-weight: bold;
 }
 
-.nav-content .nav-links li a:hover {
+.nav-content .nav-links li a:hover , a:hover{
   color: #067066; 
   font-weight: bolder;
   cursor: pointer;
 }
 
 .nav-logo{
-  margin-top: -.75em;
+  margin-top: 0;
 }
 
 /*---------------home page---------------------*/
+a:visited{
+  text-decoration: none;
+  color:#067066; 
+  font-weight: bolder;
+  font-style: italic;
+}
 
 .intro-quote{
   background-image: url('../images/DeathtoStock_CreativeCommunity3.jpg');
@@ -251,11 +257,12 @@ footer{
 .footer-text a{
   text-decoration: none;
   color:#0C0D0D;
+  font-weight: bold;
 }
 
 .footer-text a:hover{
   color: #067066; 
-  font-weight: bolder;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -264,16 +271,16 @@ footer{
 /*----------------additional gallery formating----------------*/
 
 .top-content{
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 .full-width-text{
-  width:90%;
+  width:80%;
   margin-left: auto;
   margin-right: auto;
   position:relative;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .column-head{
@@ -281,6 +288,7 @@ footer{
   font-weight: 700;
   letter-spacing: -.04em;
   padding: .5rem;
+  padding-bottom: 2rem; 
   text-align: center;
 }
 
@@ -290,27 +298,33 @@ footer{
 }
 
 .bottom-content{
-  margin-bottom: 15rem;
+  margin-bottom: 8rem;
 }
 
 .column-para{
   padding-left:30px;
   padding-right: 60px;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
+
+/*-----------digital gal. hover------------*/
 
 .skills{
   position: absolute;
   margin-top: -200px;
-  padding-left: 20%;
   font-size: 20px;
+  padding-left: 10%;
+  font-weight: bold;
 }
+
+
 
 /*-----------print gal. scroller-------*/
 .ad-img{
   width:716.578px;
 }
+
 #ad-scroll{
   width:716.578px;
   height:268px;
@@ -349,6 +363,14 @@ footer{
 }
 
 #poster-scroll div.current-p{
+  z-index: 2;
+}
+
+.previous{
+  z-index:1;
+}
+
+.current{
   z-index: 2;
 }
 
