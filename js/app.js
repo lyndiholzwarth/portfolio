@@ -78,11 +78,11 @@ function rotateImgPoster(main, first, current, previous){
 
  
 // Example Calls:
- 	main_poster = '#poster-scroll div.current-p'
+ 	main = '#poster-scroll div.current-p'
 	    first = '#poster-scroll div:first'
   	current = 'current-p'
 	    previous = 'previous-p'
-  	rotateImgPoster(main_poster, first, current, previous);
+  	rotateImgPoster(main, first, current, previous);
 // 2.   rotateImgPoster('#ad-scroll div.current-a', '#ad-scroll div:first', 'current-a', 'previous-a');
 
 };
