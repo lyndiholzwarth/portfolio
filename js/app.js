@@ -20,17 +20,17 @@ $(document).ready(function(){
 
 
 function jumpingImg(){
-	$('#left-align').delay( "2000" )
+	$('#left-align').delay( "4000" )
 		.animate({top: '-100px'}, "6000")
 		.delay( "1000" )
 		.animate({top:"0px"}, "6000");
 
-	$('#center-align').delay( "4000" )
+	$('#center-align').delay( "6000" )
 		.animate({top: '-100px'}, "6000")
 		.delay( "1000" )
 		.animate({top:"0px"}, "6000");
 
-	$('#right-align').delay( "6000" )
+	$('#right-align').delay( "8000" )
 		.animate({top: '-100px'}, "6000")
 		.delay( "1000" )
 		.animate({top:"0px"}, "6000");

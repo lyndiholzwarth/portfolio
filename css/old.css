@@ -1,3 +1,66 @@
+/*---------------nav bar---------------------*/
+
+.nav-bar{
+  width:100%;
+  height: 4.375rem;
+  z-index: 9999;
+  background-color: rgba(241, 241, 241, .7);
+ 
+}
+
+.bar{
+  background-color: #A4A4A4;
+  width:100%;
+  height: 40px;
+  margin-top: 30px;
+  position: fixed;
+  border-top: 1px solid #0C0D0D;
+  border-bottom: 1px solid #0C0D0D;
+  display: block;
+  box-shadow: 0 .3em 1em #0C0D0D;
+}
+
+.nav-content{
+  height: 4.5rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  margin-top: -1.15rem;
+  width:90%;
+}
+
+.nav-content .nav-links{
+  float:right;
+  margin-top: 1.75rem;
+  font-size: 18px; 
+  color: #0C0D0D; 
+  font-weight: bold;
+}
+
+.nav-content .nav-links > .active {
+  color: #067066; 
+  font-weight: bolder;
+}
+
+.nav-content .nav-links li{
+  display:inline-block;
+  margin-left: 25px;
+}
+
+.nav-content .nav-links li a, a{
+  text-decoration: none;
+  color: #42201A; 
+  font-weight: bold;
+}
+
+.nav-content .nav-links li a:hover , a:hover{
+  color: #8C563C; 
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.nav-logo{
+  margin-top: 0;
+}
 .image{
   position: relative;
   
