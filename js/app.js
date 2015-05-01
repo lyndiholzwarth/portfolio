@@ -14,6 +14,11 @@ $(document).ready(function(){
 		$(this).next().fadeTo("slow", 0);
 	});
 
+//quote typing
+//add text, one letter at a time
+
+
+
 function jumpingImg(){
 	$('.left-align').delay( "2000" )
 		.animate({top: '-100px'}, "6000")
@@ -32,6 +37,9 @@ function jumpingImg(){
 	}
 
 jumpingImg()
+
+
+
 	//$(function(){setInterval('rotateImgAd()', 3000);
 	//});
 //.animate({params},speed,callback);
