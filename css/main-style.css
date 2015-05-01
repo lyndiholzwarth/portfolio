@@ -126,6 +126,9 @@ a:visited{
   z-index: -1;
 }
 
+.jumpLinks{
+  margin-bottom: 50px;
+}
 
 .column-w-img, .sm-img{
   width: 100%;
@@ -151,7 +154,8 @@ a:visited{
   margin-bottom: 30px;
 }
 
-.column-text, .column-head{
+.column-text, .column-head, .column-link{
+  width:100%;
   background-color: #DAD9BE;
   color:#42201A;
   font-size: 25px;
@@ -164,12 +168,16 @@ a:visited{
   border: 1px solid #42201A;
 }
 
+.column-link{
+  margin-top:15px; 
+}
+
 .left-align{
   float:left;
   padding-left: 20px;
 }
 
-.interactive{
+.sectionHead{
   margin-top: 100px;
 }
 
@@ -178,12 +186,22 @@ a:visited{
   margin-left: -10px;
   -webkit-clip-path: polygon(0 0, 0% 100%, 80% 30%);
   clip-path: polygon(0 0, 0% 100%, 80% 30%);
-  float:left;
+  float:right;
   position: absolute;
   display: inline-block;
   z-index: -1;
 }
 
+#coffee-right-img{
+  height:500px;
+  margin-left: 200px;
+  -webkit-clip-path: polygon(100% 0, 0 30%, 100% 100%);
+  clip-path: polygon(100% 0, 0 30%, 100% 100%);
+  float:left;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
 .right-img{
   float:right;
   padding-right: 20px;
@@ -196,13 +214,23 @@ a:visited{
 .sectionIntro{
   font-size: 80px;
   font-weight: bolder;
-  color: #42201A;
-  text-shadow: 2px 4px 2px #DAD9BE;
   display: inline-block;
   position: relative;
-  margin-left: 800px;
   padding-top: 125px;
 }
+
+.leftHead{
+  color: #42201A;
+  text-shadow: 2px 4px 2px #DAD9BE;
+  margin-left: 800px;
+}
+
+.rightHead{
+  color: #DAD9BE;
+  text-shadow: 2px 4px 2px #42201A;
+  margin-left: 450px;
+}
+
 
 h3{
   color: #000;
