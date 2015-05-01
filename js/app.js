@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
 	$('.skills').hide();
 
 	$('.hover-area').mouseenter(function(){
@@ -12,11 +14,44 @@ $(document).ready(function(){
 		$(this).next().fadeTo("slow", 0);
 	});
 
+function jumpingImg(){
+	$('.left-align').delay( "2000" )
+		.animate({top: '-100px'}, "6000")
+		.delay( "1000" )
+		.animate({top:"0px"}, "6000");
+
+	$('.center-align').delay( "4000" )
+		.animate({top: '-100px'}, "6000")
+		.delay( "1000" )
+		.animate({top:"0px"}, "6000");
+
+	$('.right-align').delay( "6000" )
+		.animate({top: '-100px'}, "6000")
+		.delay( "1000" )
+		.animate({top:"0px"}, "6000");
+	}
+
+jumpingImg()
 	//$(function(){setInterval('rotateImgAd()', 3000);
 	//});
+//.animate({params},speed,callback);
+//	$(function(){setInterval('rotateImg()', 3000);
+//	});
 
-	$(function(){setInterval('rotateImgPoster()', 3000);
-	});
+// function rotateImgPoster(main, first, current, previous){
+//     var curPostImg = $(main);
+//     var nxtPostImg = curPostImg.next();
+//     if(nxtPostImg.length==0)
+//         nxtPostImg = $(first);
+        
+//     curPostImg.removeClass(current).addClass(previous);
+//     nxtPostImg.addClass(current).animate({opacity: 1.0}, 1000,
+//         function(){
+//             curPostImg.removeClass(previous);
+//         });
+
+//rotateImg(#poster-scroll div.current-p, #poster-scroll div:first, current-p, previous-p);
+
 
 });
 
@@ -50,39 +85,39 @@ $(document).ready(function(){
 
 
 
-//	function rotateImg(main, first, current, previous){
-  //  var curImg = $(main);
-    //var nxtImg = curImg.next();
-   // if(nxtImg.length==0)
-     //   nxtImg = $(first);
+	// function rotateImg(main, first, current, previous){
+ //   var curImg = $(main);
+ //    var nxtImg = curImg.next();
+ //   if(nxtImg.length==0)
+ //       nxtImg = $(first);
         
-//    curImg.removeClass(current).addClass(previous);
-  //  nxtImg.addClass(current).animate({opacity: 1.0}, 1000,
-    //    function(){
-      //      curImg.removeClass(previous);
-        //});
+ //   curImg.removeClass(current).addClass(previous);
+ //   nxtImg.addClass(current).animate({opacity: 1.0}, 1000,
+ //       function(){
+ //           curImg.removeClass(previous);
+ //        });
 
   //  rotateImg('#poster-scroll div.current-p', '#poster-scroll div:first', 'current-p', 'previous-p');
 
-function rotateImgPoster(main, first, current, previous){
-    var curPostImg = $(main);
-    var nxtPostImg = curPostImg.next();
-    if(nxtPostImg.length==0)
-        nxtPostImg = $(first);
+// function rotateImgPoster(main, first, current, previous){
+//     var curPostImg = $(main);
+//     var nxtPostImg = curPostImg.next();
+//     if(nxtPostImg.length==0)
+//         nxtPostImg = $(first);
         
-    curPostImg.removeClass(current).addClass(previous);
-    nxtPostImg.addClass(current).animate({opacity: 1.0}, 1000,
-        function(){
-            curPostImg.removeClass(previous);
-        });
+//     curPostImg.removeClass(current).addClass(previous);
+//     nxtPostImg.addClass(current).animate({opacity: 1.0}, 1000,
+//         function(){
+//             curPostImg.removeClass(previous);
+//         });
 
  
 // Example Calls:
- 	main = '#poster-scroll div.current-p'
-	    first = '#poster-scroll div:first'
-  	current = 'current-p'
-	    previous = 'previous-p'
-  	rotateImgPoster(main, first, current, previous);
+ 	// main = '#poster-scroll div.current-p'
+	 //    first = '#poster-scroll div:first'
+  // 	current = 'current-p'
+	 //    previous = 'previous-p'
+  //	rotateImgPoster(main, first, current, previous);
 // 2.   rotateImgPoster('#ad-scroll div.current-a', '#ad-scroll div:first', 'current-a', 'previous-a');
 
-};
+// };

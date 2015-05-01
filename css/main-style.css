@@ -66,7 +66,6 @@ body{
 /*---------------nav bar---------------------*/
 
 .nav-bar{
-  position: fixed;
   width:100%;
   height: 4.375rem;
   z-index: 9999;
@@ -137,16 +136,20 @@ a:visited{
 }
 
 .intro-quote{
-  background-image: url('../images/DeathtoStock_CreativeCommunity3.jpg');
+ /* background-image: url('../images/DeathtoStock_CreativeCommunity3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 80rem;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
-  padding-top: 5rem;
+  background-position: center;*/
+  -webkit-clip-path: inset(10% 0 10% 0);
+  clip-path: inset(10% 0 10% 0);
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-top: -10%;
+  padding-top: 0rem;
   position: relative;
   display: block;
+  width:100%;
+  z-index: -1;
 }
 
 .quote{
@@ -208,19 +211,36 @@ span{
 .column-w-img, .sm-img{
   width: 100%;
 }
+
+.sm-img{
+  height:375px;
+  background-color: #000;
+}
+
+#smaller-img{
+  padding-left:20%;
+  padding-right:20%
+}
+
 .sm-img, .xsm-img, .ad-img, .art-img{
   border: 1px solid #0C0D0D;
 }
 
 .column-w-img{
-  padding-left:60px;
-  padding-right: 60px;
+  padding-left:30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
 }
 
 .column-text{
+  background-color: #DAD9BE;
+  color:#42201A;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top:-60px;
+  border: 1px solid #0C0D0D;
 }
 
 .left-align{
@@ -228,9 +248,42 @@ span{
   padding-left: 20px;
 }
 
+.interactive{
+  margin-top: 100px;
+}
+
+#coffee-left-img{
+  height:500px;
+  margin-left: -10px;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 80% 30%);
+  clip-path: polygon(0 0, 0% 100%, 80% 30%);
+  float:left;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
+
 .right-img{
   float:right;
   padding-right: 20px;
+}
+
+.interactvieContent{
+  margin-top: 300px;
+}
+
+.sectionIntro{
+  font-size: 80px;
+  font-weight: bolder;
+  color: #42201A;
+  display: inline-block;
+  position: relative;
+  margin-left: 800px;
+  padding-top: 125px;
+}
+
+h3{
+  color: #000;
 }
 
 /*---------------footer---------------------*/
@@ -289,7 +342,7 @@ footer{
 }
 
 .column-head{
-  font-size: 2.5em;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: -.04em;
   padding: .5rem;
