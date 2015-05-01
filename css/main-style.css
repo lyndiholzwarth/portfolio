@@ -1,7 +1,4 @@
-
-
 /*---------------general--------------------*/
-
 
 body{
   background-color:#EBE6DE;
@@ -9,7 +6,11 @@ body{
   width:100%;
   font-family: 'Karla', sans-serif;
   letter-spacing: -.02em;
- }
+}
+
+.container-fluid{
+  padding:0;
+}
 
 /*---------------nav bar---------------------*/
 
@@ -76,6 +77,7 @@ body{
 }
 
 /*---------------home page---------------------*/
+
 a:visited{
   text-decoration: none;
   color:#8C563C; 
@@ -102,12 +104,12 @@ a:visited{
 }
 
 .quote h1{
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .quote p{
-  font-size: 2em;
-  padding-top: 1.5em;
+  font-size: 1.5em;
+  padding-top: 1em;
 }
 
 #desk{
@@ -134,7 +136,7 @@ a:visited{
 }
 
 .sm-img{
-  height:350px;
+  height:250px;
 }
 
 #smaller-img{
@@ -182,15 +184,15 @@ a:visited{
 
 .left-align{
   float:left;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .sectionHead{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #coffee-left-img{
-  height:500px;
+  height:400px;
   margin-left: -10px;
   -webkit-clip-path: polygon(0 0, 0% 100%, 80% 30%);
   clip-path: polygon(0 0, 0% 100%, 80% 30%);
@@ -201,8 +203,8 @@ a:visited{
 }
 
 #coffee-right-img{
-  height:500px;
-  margin-left: 200px;
+  height:400px;
+  margin-left: 60px;
   -webkit-clip-path: polygon(100% 0, 0 30%, 100% 100%);
   clip-path: polygon(100% 0, 0 30%, 100% 100%);
   float:left;
@@ -211,41 +213,33 @@ a:visited{
   z-index: -1;
 }
 
-.right-img{
-  float:right;
-  padding-right: 20px;
-}
-
 .interactvieContent{
-  margin-top: 500px;
+  margin-top: 350px;
 }
 
 .sectionIntro{
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bolder;
   display: inline-block;
   position: relative;
-  padding-top: 125px;
-}
-
-.leftHead{
-  color: #42201A;
-  text-shadow: 2px 4px 2px #EBE6DE;
-  margin-left: 800px;
+  padding-top: 100px;
 }
 
 .rightHead{
+  color: #42201A;
+  text-shadow: 2px 4px 2px #EBE6DE;
+  margin-left: 700px;
+}
+
+.leftHead{
   color: #EBE6DE;
   text-shadow: 2px 4px 2px #42201A;
-  margin-left: 450px;
+  margin-left: 375px;
 }
 
 .secondRow{
   margin-top: 100px;
-}
-
-h3{
-  color: #000;
+  margin-bottom: 25px;
 }
 
 .bottom{
@@ -262,7 +256,7 @@ footer{
 
 .smallText{
   color: #EBE6DE;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 10px;
   text-align: center;
 }
@@ -280,7 +274,7 @@ footer{
   text-align: center;
   line-height: 2rem;
   color:#EBE6DE;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
 }
 
