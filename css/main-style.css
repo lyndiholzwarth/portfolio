@@ -26,7 +26,7 @@ a:visited{
 }
 .introImage{ 
   position: relative; 
-  width: 100%; /* for IE 6 */
+  width: 100%;
 }
 
 .quote { 
@@ -71,6 +71,29 @@ a:visited{
   margin-bottom: 50px;
 }
 
+.about{
+  width:100%;
+  background-color: #A38C73;
+  border-top: 2px solid #42201A;
+  border-bottom: 2px solid #42201A;
+  padding: 30px;
+  margin-bottom: 80px;
+}
+
+.aboutParagraph{
+  font-size: 25px;
+  color:#42201A;
+  background-color: #EBE6DE;
+  padding:30px;
+  width:70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.25;
+  border:6px;
+  border-style:ridge;
+
+}
+
 .column-w-img, .sm-img{
   width: 100%;
 }
@@ -82,7 +105,7 @@ a:visited{
 #smaller-img{
   padding-left:20%;
   padding-right:20%;
-    background-color: #000;
+  background-color: #000;
 
 }
 
