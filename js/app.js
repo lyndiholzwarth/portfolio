@@ -14,28 +14,28 @@ $(document).ready(function(){
 		$(this).next().fadeTo("slow", 0);
 	});
 
-//quote typing
-//add text, one letter at a time
-
-
 
 function jumpingImg(){
-	$('#left-align').delay( "4000" )
+	$('#left-align').delay( "10000" )
 		.animate({top: '-100px'}, "6000")
 		.delay( "1000" )
 		.animate({top:"0px"}, "6000");
 
-	$('#center-align').delay( "6000" )
+	$('#center-align').delay( "12000" )
 		.animate({top: '-100px'}, "6000")
 		.delay( "1000" )
 		.animate({top:"0px"}, "6000");
 
-	$('#right-align').delay( "8000" )
+	$('#right-align').delay( "14000" )
 		.animate({top: '-100px'}, "6000")
 		.delay( "1000" )
 		.animate({top:"0px"}, "6000");
 	}
 
 jumpingImg()
+
+
+
+
 
 });

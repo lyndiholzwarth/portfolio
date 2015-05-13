@@ -3,17 +3,28 @@
 <head>
 	<!--Javascript main-->
 	<script src="//code.jquery.com/jquery.min.js"></script>
-
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<!--typewriter plug-in-->
+	<script src="js/typed.js"></script>
+		<script>
+		  $(function(){
+		      $(".element").typed({
+		        strings: ["<h1>I like nonsense, it wakes up the brain cells.</h1> ^1000 <br><p>-Dr. Seuss</p>"],
+		        contentType:"html",
+		        typeSpeed: 100,
+		      });
+		  });
+		</script>
 	<!--Bootstrap-->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<!--font awesome-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<!--CSS, fonts and my javascript-->
 	<link rel="stylesheet" type="text/css" href="css/main-style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<script src="js/app.js"></script>
 	<link href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<title>Lyndi Holzwarth's Portfolio</title>
 </head>
@@ -33,178 +44,197 @@
 	</nav>-->
 	<div class="introImage">
 		<img src="images/DeathtoStock_CreativeCommunity3.jpg" id="desk">
-		<div class="quote">
-			<h1>I like nonsense, it wakes up the brain cells.</h1>
-			<p>Dr. Seuss</p>
+		<div class="quote element">
+			
 		</div>
 	</div>
+
 	<div class="container">
-		<div class="row jumpLinks">
-			<a href="#InteractiveStuff">
-				<div class="col-lg-4" id="left-align">
+		<div class="row">
+			<div class="jumpLinks">
+				<a href="#InteractiveStuff">
+					<div class="col-lg-4" id="left-align">
+						<div class="column-w-img">
+							<h3 class="column-text">Interactive Designs</h3>
+							<img src="images/digital/shopping-mockup.jpg" class="sm-img"/>
+						</div>
+					</div>
+				</a>
+				<a href="#PrintStuff">
+					<div class="col-lg-4" id="center-align">
+						<div class="column-w-img">
+							<h3 class="column-text">Print and Web Designs</h3>
+						  	<img src="images/print/Bus-Stop-Ad-StopSign.jpg" class="sm-img"/>
+						</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="col-lg-4" id="right-align">
+						<div class="column-w-img">
+							<h3 class="column-text">More About Me</h3>
+							<img src="images/print/paradise.jpg" class="sm-img" id="smaller-img"/>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="about col-lg-12">
+				<h4 class="aboutParagraph">I am a junior front-end web developer, who loves to play with scripts. I enjoy taking apart codes and seeing how they work. Playful designs are what call to me. I believe that we all need a bit of happiness in our lives, whether it is from a web page, a cup of coffee, or a giant handful of gummy bears!
+				</h4>
+			</div>
+		</div>
+
+		<div class="row">
+			<a name="InteractiveStuff"></a>
+			<div class="sectionHead col-lg-12">
+				<img src="images/coffeeincup2.jpg" id="coffee-left-img">
+				<h2 class="sectionIntro rightHead">Interactive Designs</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="interactvieContent">
+				<div class="col-lg-4 left-most">
 					<div class="column-w-img">
-						<h3 class="column-text">Interactive Designs</h3>
-						<img src="images/digital/shopping-mockup.jpg" class="sm-img"/>
+						<h3 class="column-head">Shopping List App</h3>
+						<img src="images/digital/Shopping-list-app.jpg" class="sm-img hover-area"/>
+						<ul class="skills">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>jQuery</li>
+							<li>Responsive Design</li>
+							<li>Bootstrap</li> 
+						</ul>
+						<div class="column-link">
+							<a href="http://lyndiholzwarth.github.io/shopping-list-app/main.html" target="_blank">Play!</a>
+						</div>
 					</div>
 				</div>
-			</a>
-			<a href="#PrintStuff">
-				<div class="col-lg-4" id="center-align">
+				<div class="col-lg-4 left-center">
 					<div class="column-w-img">
-						<h3 class="column-text">Print and Web Designs</h3>
-					  	<img src="images/print/Bus-Stop-Ad-StopSign.jpg" class="sm-img"/>
+						<h3 class="column-head">FizzBuzz</h3>
+						<img src="images/digital/FizzBuzzPrompt-screenshot.png" class="sm-img hover-area"/>
+						<ul class="skills">
+							<li>jQuery</li>
+							<li>Javascript</li> 
+						</ul>
+						<div class="column-link">
+							<a href="http://lyndiholzwarth.github.io/fizz-buzz/index.html" target="_blank">Play!</a>
+						</div>
 					</div>
 				</div>
-			</a>
-			<a href="#">
-				<div class="col-lg-4" id="right-align">
+				<div class="col-lg-4 right-center">
 					<div class="column-w-img">
-						<h3 class="column-text">More About Me</h3>
-						<img src="images/print/paradise.jpg" class="sm-img" id="smaller-img"/>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<div class="about">
-			<h4 class="aboutParagraph">I am a junior front-end web developer with a love of scripting. I enjoy the puzzle solving behind making a web site work. Playful designs are what call to me. We all need a bit of happiness in our lives, whether it is from a web page, a cup of coffee, or a giant handful of gummy bears!
-			</h4>
-		</div>
-
-		<a name="InteractiveStuff"></a>
-		<div class="row sectionHead">
-			<img src="images/coffeeincup2.jpg" id="coffee-left-img">
-			<h2 class="sectionIntro rightHead">Interactive Designs</h2>
-		</div>
-
-		<div class="row interactvieContent">
-			<div class="col-lg-4 left-most">
-				<div class="column-w-img">
-					<h3 class="column-head">Shopping List App</h3>
-					<img src="images/digital/Shopping-list-app.jpg" class="sm-img hover-area"/>
-					<ul class="skills">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>jQuery</li>
-						<li>Responsive Design</li>
-						<li>Bootstrap</li> 
-					</ul>
-					<div class="column-link">
-						<a href="#">Play!</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 left-center">
-				<div class="column-w-img">
-					<h3 class="column-head">FizzBuzz</h3>
-					<img src="images/digital/FizzBuzzPrompt-screenshot.png" class="sm-img hover-area"/>
-					<ul class="skills">
-						<li>jQuery</li>
-						<li>Javascript</li> 
-					</ul>
-					<div class="column-link">
-						<a href="#">Play!</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 right-center">
-				<div class="column-w-img">
-					<h2 class="column-head">Streetfighter Game</h2>
-					<img src="images/digital/Streetfighter-game.png" class="sm-img hover-area"/>
-					<ul class="skills">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>jQuery</li>
-						<li>Javascript</li> 
-					</ul>
-					<div class="column-link">
-						<a href="#">Play!</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row secondRow interactiveContent">
-			<div class="col-lg-4 right-center">
-				<div class="column-w-img">
-					<h2 class="column-head">Hot-Or-Cold</h2>
-					<img src="images/digital/Hot-Or-Cold-screenshot.png" class="sm-img hover-area"/>
-					<ul class="skills">
-						<li>jQuery</li>
-						<li>Javascript</li> 
-					</ul>
-					<div class="column-link">
-						<a href="#">Play!</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 right-center">
-				<div class="column-w-img">
-					<h2 class="column-head">Quiz App</h2>
-					<img src="" class="sm-img hover-area"/ alt="Coming Soon">
-					<ul class="skills">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>jQuery</li>
-						<li>Javascript</li> 
-					</ul>
-					<div class="column-link">
-						<a href="#">Play!</a>
+						<h2 class="column-head">Streetfighter Game</h2>
+						<img src="images/digital/Streetfighter-game.png" class="sm-img hover-area"/>
+						<ul class="skills">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>jQuery</li>
+							<li>Javascript</li> 
+						</ul>
+						<div class="column-link">
+							<a href="lyndiholzwarth.github.io/Streetfighter/main.html" target="_blank">Play!</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<a name="PrintStuff"></a>
-		<div class="row SectionHead">
-			<img src="images/coffeebeans2.jpg" id="coffee-right-img">
-			<h2 class="sectionIntro leftHead">Print and Web Designs</h2>
+		<div class="row">		
+			<div class="secondRow interactiveContent">
+				<div class="col-lg-4 right-center">
+					<div class="column-w-img">
+						<h2 class="column-head">Hot-Or-Cold</h2>
+						<img src="images/digital/Hot-Or-Cold-screenshot.png" class="sm-img hover-area"/>
+						<ul class="skills">
+							<li>jQuery</li>
+							<li>Javascript</li> 
+						</ul>
+						<div class="column-link">
+							<a href="http://lyndiholzwarth.github.io/hot-or-cold-starter/index.html" target="_blank">Play!</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 right-center">
+					<div class="column-w-img">
+						<h2 class="column-head">Quiz App</h2>
+						<img src="" class="sm-img hover-area"/ alt="Coming Soon">
+						<ul class="skills">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>jQuery</li>
+							<li>Javascript</li> 
+						</ul>
+						<div class="column-link">
+							<h3>To Come</h3>
+							<!--<a href="#" target="_blank">Play!</a>-->
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="row interactvieContent">
-			<div class="col-lg-4 left-most">
-				<div class="column-w-img">
-					<h3 class="column-head">Karma Clone</h3>
-					<img src="images/digital/KarmaScreenshot1.png" class="sm-img"/>
-					<div class="column-link">
-						<a href="#">Closer look</a>
+		<div class="row">
+			<a name="PrintStuff"></a>
+			<div class="SectionHead col-lg-12">
+				<img src="images/coffeebeans2.jpg" id="coffee-right-img">
+				<h2 class="sectionIntro leftHead">Print and Web Designs</h2>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="interactvieContent">
+				<div class="col-lg-4 left-most">
+					<div class="column-w-img">
+						<h3 class="column-head">Karma Clone</h3>
+						<img src="images/digital/KarmaScreenshot1.png" class="sm-img"/>
+						<div class="column-link">
+							<a href="http://lyndiholzwarth.github.io/startup-landing-page-clone/index.html" target="_blank">Closer look</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 left-center">
-				<div class="column-w-img">
-					<h3 class="column-head">Times Hack</h3>
-					<img src="images/digital/TimesScreenshot.png" class="sm-img"/>
-					<div class="column-link">
-						<a href="#">Closer Look</a>
+				<div class="col-lg-4 left-center">
+					<div class="column-w-img">
+						<h3 class="column-head">Times Hack</h3>
+						<img src="images/digital/TimesScreenshot.png" class="sm-img"/>
+						<div class="column-link">
+							<a href="#">Closer Look</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 right-center">
-				<div class="column-w-img">
-					<h2 class="column-head">Literacy Poster Series</h2>
-					<img src="images/print/Bus-Stop-Ad-StopSign.jpg" class="sm-img"/>
-					<div class="column-link">
-						<a href="#">Additional Posters</a>
+				<div class="col-lg-4 right-center">
+					<div class="column-w-img">
+						<h2 class="column-head">Literacy Poster Series</h2>
+						<img src="images/print/Bus-Stop-Ad-StopSign.jpg" class="sm-img"/>
+						<div class="column-link">
+							<a href="#">Additional Posters</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row secondRow interactiveContent bottom">
-			<div class="col-lg-4 right-center">
-				<div class="column-w-img">
-					<h2 class="column-head">Pagoda Brewing Company Logo</h2>
-					<img src="images/print/PBC_Business_Card_Mock-Up.jpg" class="sm-img"/>
-					<div class="column-link">
-						<a href="#">More uses</a>
+
+		<div class="row">
+			<div class="secondRow interactiveContent bottom">
+				<div class="col-lg-4 right-center">
+					<div class="column-w-img">
+						<h2 class="column-head">Pagoda Brewing Company Logo</h2>
+						<img src="images/print/PBC_Business_Card_Mock-Up.jpg" class="sm-img"/>
+						<div class="column-link">
+							<a href="#">More uses</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 right-center">
-				<div class="column-w-img">
-					<h2 class="column-head">Pagoda Brewing Company Ads</h2>
-					<img src="images/print/PBC_ad1.jpg" class="sm-img" id="wide-img">
-					<div class="column-link">
-						<a href="#">Additional Ads</a>
+				<div class="col-lg-4 right-center">
+					<div class="column-w-img">
+						<h2 class="column-head">Pagoda Brewing Company Ads</h2>
+						<img src="images/print/PBC_ad1.jpg" class="sm-img" id="wide-img">
+						<div class="column-link">
+							<a href="#">Additional Ads</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -215,7 +245,7 @@
 
 	<footer>
 		<p class="footer-text">Handcrafted with <i class="fa fa-heart"></i> by LH. <br>
-		<a href="">Send some coffee!</a><br></p>
+		<a href="">Need to deliver coffee?</a><br></p>
 		<p class="smallText">Desk Photo from <a href="http://deathtothestockphoto.com" target="_blank">http://deathtothestockphoto.com</a></p>
 	</footer>
 
