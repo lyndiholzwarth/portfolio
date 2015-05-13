@@ -76,7 +76,7 @@ a:visited{
   border-top: 2px solid #42201A;
   border-bottom: 2px solid #42201A;
   padding: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-top: 50px;
 }
 
@@ -169,6 +169,8 @@ a:visited{
   height:400px;
   width: 1325px;
   margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   -webkit-clip-path: polygon(100% 0, 0 30%, 100% 100%);
   clip-path: polygon(100% 0, 0 30%, 100% 100%);
   position: absolute;
@@ -202,7 +204,7 @@ a:visited{
 
 .secondRow{
   margin-top: 100px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .bottom{
@@ -214,7 +216,7 @@ footer{
   background-color: #8C563C;
   height: 13rem;
   padding-top: 4rem;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .smallText{
