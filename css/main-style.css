@@ -1,12 +1,15 @@
 /*---------------general--------------------*/
+/*-- important colors: pale brown #EBE6DE, medium brown: #A38C73, dark brown:#42201A; deep teal: #0F403B--*/
+
 
 body{
-  background-color:#EBE6DE;
+  background-color:#fff;
   background-attachment: fixed;
   width:100%;
   font-family: 'Karla', sans-serif;
   letter-spacing: -.02em;
 }
+
 .container{
   width:100%;
 }
@@ -47,7 +50,7 @@ a:visited{
   line-height: 1.5em;
 }
 .element p{
-  font-size: 1.5em;
+  font-size: 2.5em;
   padding-left: 600px;
 }
 
@@ -68,6 +71,7 @@ a:visited{
 
 .jumpLinks{
   margin-bottom: 50px;
+  margin-top: -10px;
 }
 
 .about{
@@ -129,7 +133,7 @@ a:visited{
 
 .column-text, .column-head, .column-link{
   width:100%;
-  background-color: #A38C73;
+  background-color: #EBE6DE;
   color:#42201A;
   font-size: 25px;
   font-weight: 700;
@@ -137,7 +141,6 @@ a:visited{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top:-60px;
   border: 1px solid #42201A;
 }
 
@@ -210,6 +213,15 @@ a:visited{
 .bottom{
   margin-bottom: 100px;
 }
+
+.goHome{
+  background-color: #EBE6DE;
+  color:#42201A;
+  padding:10px;
+  cursor: pointer;
+  font-size:16px;
+}
+
 /*---------------footer---------------------*/
 
 footer{
