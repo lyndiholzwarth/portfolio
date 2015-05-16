@@ -280,3 +280,93 @@ h2{
 
 
 */
+
+
+.top-content{
+  margin-top: 6rem;
+}
+
+.full-width-text{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.mid-content{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.bottom-content{
+  margin-bottom: 8rem;
+}
+
+.column-para{
+  padding-left:30px;
+  padding-right: 60px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+
+/*-----------print gal. scroller-------*/
+.ad-img{
+  width:716.578px;
+}
+
+#ad-scroll{
+  width:716.578px;
+  height:268px;
+}
+
+#ad-scroll div{
+  position: absolute;
+  z-index: 0;
+}
+
+#ad-scroll div.previous-a{
+  z-index:1;
+}
+
+#ad-scroll div.current-a{
+  z-index: 2;
+}
+
+.xsm-img{
+  width:400px;
+  margin-left: 200px;
+}
+
+#poster-scroll{
+  width:716.578px;
+  height:587px;
+}
+
+#poster-scroll div{
+  position: absolute;
+  z-index: 0;
+}
+
+#poster-scroll div.previous-p{
+  z-index:1;
+}
+
+#poster-scroll div.current-p{
+  z-index: 2;
+}
+
+.previous{
+  z-index:1;
+}
+
+.current{
+  z-index: 2;
+}
+
+.art-img{
+  width:400px;
+  margin-left: 200px;
+}
