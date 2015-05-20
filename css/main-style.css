@@ -145,12 +145,12 @@ a:visited{
   margin-top: -5px;
 }
 
-.column-link a{
+.column-head a{
   color:#EBE6DE;
   text-decoration: none;
 }
 
-.column-link a:hover{
+.column-head a:hover{
   color: #067066; 
   cursor: pointer;
   text-shadow: 1px 1px 1px #EBE6DE;
@@ -423,29 +423,20 @@ footer{
   text-align: center;
 }
 
-.masthead{
-  padding: 6em 0;
-  background-image: url(http://i300.photobucket.com/albums/nn8/lyndiholzwarth/alejandroescamilla-book_zps72cbfc77.jpg) ;
-    background-width: cover;
-  -webkit-background-size: cover; /* Safari en Chrome */
-  -moz-background-size: cover; /*  Old Firefox */
-  -o-background-size: cover; /* Opera */
-  height: 18.75em;
-  background-position: center top;
-  background-repeat: no-repeat;
-  border-top: 1em solid #733426;
-  /*shadow*/
-  -webkit-box-shadow: 0 15px 10px -4px #42201A;
-     -moz-box-shadow: 0 15px 10px -4px #42201A;
-          box-shadow: 0 15px 10px -4px #42201A;
+.aboutImg{
+  width:100%;
+  z-index: -1;
+  position: relative;
 }
 
 .masthead-intro{
   /* layout declarations */
   margin-bottom: 0.6em;
+  z-index: 1; 
+  position: absolute;
+    
   /* typography declarations */
     font-family: 'Lora', serif;
-
   font-size: 2em;
   color:#42201A;
   font-weight: bold;
@@ -454,6 +445,8 @@ footer{
 .masthead-heading {
   /* layout declarations */
   margin-top: -0.2em;
+  position: absolute;
+
   /* typography declarations */
   font-family: 'Lora', serif;
   font-weight: bold;
@@ -497,6 +490,15 @@ footer{
   color: #42201A;
   margin-bottom: 5px;
   line-height: 1.2;
+}
+
+.aboutText a{
+  text-decoration: underline;
+}
+
+.aboutText a:hover{
+  color: #067066; 
+  cursor: pointer;
 }
  /* responsive fix content*/
 
@@ -543,9 +545,4 @@ section > h1 {
   font-weight: 700;
   letter-spacing: .04em;
   text-align: center;
-}
-
-a{
-  color:#42201A;
-  font-weight: bold;
 }
