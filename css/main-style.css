@@ -90,9 +90,12 @@ a:visited{
   margin-left: 15%;
   margin-right: 15%;
   line-height: 1.25;
-  border:6px;
-  border-style:ridge;
+  /*border:6px;*/
+  /*border-style:ridge;*/
+}
 
+.emphasis{
+  font-style: italic;
 }
 
 .column-w-img, .sm-img{
