@@ -1,240 +1,102 @@
 <!DOCTYPE html>
-<html lang="eg">
-<head>
-	<!--Javascript main-->
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Lyndi's Portfolio - Home</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--font awesome and google fonts-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-	<!--typewriter plug-in-->
-	<script src="js/typed.js"></script>
-		<script>
-		  $(function(){
-		      $(".element").typed({
-		        strings: ["<h1>I like nonsense, it wakes up the brain cells.</h1> ^1000 <br><p>-Dr. Seuss</p>"],
-		        contentType:"html",
-		        typeSpeed: 75,
-		      });
-		  });
-		</script>
+  <!--CSS-->
+      <!--reset-->
+      <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main-style.css">
 
-	<!--Bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!--custom javascript-->
+  
 
-	<!--font awesome and google fonts-->
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
-	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="css/main-style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive-styles.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  </head>
 
-	<!--custom javascript-->
-	<script src="js/app.js"></script>
 
-	<title>Lyndi Holzwarth's Portfolio</title>
-</head>
-<body>
-<!--nav class="nav-bar">
-		<div class="bar">
-			<div class="nav-content">
-				<ul class="nav-links">
-					<li><a href="/digital-gallery.html">Digital</a></li>
-					<li><a href="/print-gallery.html">Print</a></li>
-					<li><a href="/About_me.html">About Me</a></li>
-					<li><a>Contact</a></li>
-				</ul>
-				<img class="nav-logo" src="images/logo-color-sm.png" width="85px">
-			</div>
-		</div>
-	</nav>-->
-	<div class="introImage">
-		<img src="images/DeathtoStock_CreativeCommunity3.jpg" id="desk">
-		<div class="quote element">
-			
-		</div>
-	</div>
+  <body>
+      <img src="images/DeathtoStock_CreativeCommunity3.jpg" class="headerImg">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo-color-sm.png" class="logoImg"></a>
+        </div>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="jumpLinks">
-				<a href="#InteractiveStuff">
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="left-align">
-						<div class="column-w-img">
-							<h3 class="column-text">Interactive Designs</h3>
-							<img src="images/digital/shopping-mockup.jpg" class="sm-img"/>
-						</div>
-					</div>
-				</a>
-				<a href="#PrintStuff"> 
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="center-align">
-						<div class="column-w-img">
-							<h3 class="column-text">Print and Web Designs</h3>
-						  	<img src="images/print/Bus-Stop-Ad-StopSign.jpg" class="sm-img"/>
-						</div>
-					</div>
-				</a>
-				<a href="About_me.html">
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="right-align">
-						<div class="column-w-img">
-							<h3 class="column-text">More About Me</h3>
-							<img src="images/print/paradise.jpg" class="sm-img" id="smaller-img"/>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Digital Work</a></li>
+            <li><a href="#">Print Work</a></li>
+            <li><a href="#">About Me</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-		<div class="row">
-			<div class="about col-lg-12">
-				<h4 class="aboutParagraph">My name is Lyndi and this is my portfolio. I am a tinkerer. I enjoy taking apart codes and seeing how they work, then putting them back together again. I <span class="emphasis">love</span> a good challenge. Playful designs are what call to me. I believe that we all need a bit of happiness in our lives, whether it is from a web page, a new challenge, a cup of coffee, or a giant handful of gummy bears!
-				</h4>
-			</div>
-		</div>
+    <div class="container-fluid">
+      <section>
+        <h3 class="about">My name is Lyndi and this is my portfolio. I am a tinkerer. I enjoy taking apart codes and seeing how they work, then putting them back together again. I <span class="emphasis">love</span> a good challenge. Playful designs are what call to me. I believe that we all need a bit of happiness in our lives, whether it is from a web page, a new challenge, a cup of coffee, or a giant handful of gummy bears!</h3>
+      </section>
+      <section id="digital">
+        <header>Digital Work</header>
+        <article>
+          <div class="row">
+            <div class="col-sm-4">
+              <img class="img-circle workImg" src="images/digital/Hot-Or-Cold-screenshot.png" alt="Hot or Cold Game" height="300px" width="300px">
+            </div>
+            <div class="col-sm-4">
+              <img src="images/digital/Hot-Or-Cold-screenshot.png" alt="Hot or Cold Game" class="workImg">
+            </div>
+            <div class="col-sm-4">
+              <img src="images/digital/Hot-Or-Cold-screenshot.png" alt="Hot or Cold Game" class="workImg">
+            </div>
+          </div>
+        </article>
+      </section>
 
-		<div class="row">
-			<a name="InteractiveStuff"></a>
-			<div class="sectionHead col-lg-12">
-				<img src="images/coffeeincup2.jpg" id="coffee-left-img">
-				<h2 class="sectionIntro rightHead">Interactive Designs</h2>
-			</div>
-		</div>
+      <section id="print">
+        <header>Print Work</header>
+         <article>
+        </article>
+      </section>
 
-		<div class="row">
-			<div class="interactvieContent">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h2 class="column-head"><a href="http://lyndiholzwarth.github.io/quiz-app/index.html" target="_blank">Quiz App</a></h2>
-						<img src="images/digital/Quiz-App_Screenshot.png" class="sm-img hover-area">
-						<ul class="skills">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>jQuery</li>
-							<li>Javascript</li> 
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h2 class="column-head"><a href="http://lyndiholzwarth.github.io/hot-or-cold-starter/index.html" target="_blank">Hot-Or-Cold</a></h2>
-						<img src="images/digital/Hot-Or-Cold-screenshot.png" class="sm-img hover-area"/>
-						<ul class="skills">
-							<li>jQuery</li>
-							<li>Javascript</li> 
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h3 class="column-head"><a href="http://lyndiholzwarth.github.io/shopping-list-app/main.html" target="_blank">Shopping List App</a></h3>
-						<img src="images/digital/Shopping-list-app.jpg" class="sm-img hover-area"/>
-						<ul class="skills">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>jQuery</li>
-							<li>Responsive Design</li>
-							<li>Bootstrap</li> 
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">		
-			<div class="secondRow interactiveContent">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h3 class="column-head"><a href="http://lyndiholzwarth.github.io/fizz-buzz/index.html" target="_blank">FizzBuzz</a></h3>
-						<img src="images/digital/FizzBuzzPrompt-screenshot.png" class="sm-img hover-area"/>
-						<ul class="skills">
-							<li>jQuery</li>
-							<li>Javascript</li> 
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h2 class="column-head"><a href="http://lyndiholzwarth.github.io/Streetfighter/main.html" target="_blank">Streetfighter Game</a></h2>
-						<img src="images/digital/Streetfighter-game.png" class="sm-img hover-area"/>
-						<ul class="skills">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>jQuery</li>
-							<li>Javascript</li> 
-						</ul>
-					</div>					
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<a name="PrintStuff"></a>
-			<div class="SectionHead col-lg-12">
-				<img src="images/coffeebeans2.jpg" id="coffee-right-img">
-				<h2 class="sectionIntro leftHead">Print and Web Designs</h2>
-			</div>
-		</div>
-	
-		<div class="row">
-			<div class="interactvieContent">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h3 class="column-head"><a href="web_mocks.html">Karma Clone</a></h3>
-						<img src="images/digital/KarmaScreenshot1.png" class="sm-img"/>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h3 class="column-head"><a href="web_mocks.html#TimesHack">Times Hack</a></h3>
-						<img src="images/digital/TimesScreenshot.png" class="sm-img"/>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h2 class="column-head"><a href="print.html">Literacy Poster Series</a></h2>
-						<img src="images/print/Bus-Stop-Ad-StopSign.jpg" class="sm-img"/>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="secondRow interactiveContent bottom">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h2 class="column-head"><a href="print.html#PBCLogo">PBC Logo</a></h2>
-						<img src="images/print/PBC_Business_Card_Mock-Up.jpg" class="sm-img"/>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="column-w-img">
-						<h2 class="column-head"><a href="print.html#PBCAds">PBC Ads</a></h2>
-						<img src="images/print/PBC_ad1.jpg" class="sm-img" id="wide-img">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer>
-		<p class="footer-text">Handcrafted with <i class="fa fa-heart"></i> by LH. <br>
-		<a href="mailto:lyndi.holzwarth@gmail.com">Contact me!</a><br></p>
-		<p class="smallText">Desk Photo from <a href="http://deathtothestockphoto.com" target="_blank">http://deathtothestockphoto.com</a></p>
-	</footer>
+      <section id="about">
+        <header>About Me</header>
+         <article>
+        </article>
+      </section>
+    </div>
 
 
 
 
-
-
-
-
-
-
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
