@@ -1,41 +1,14 @@
 $(document).ready(function(){
-
-
-	$('.skills').hide();
-
-	$('.hover-area').mouseenter(function(){
-		$(this).fadeTo( "slow", 0.3 );
-		$(this).next().fadeTo("slow", 1);
-
+	//sticky header, with size adjustment
+	$(window).scroll(function() {
+	if ($(this).scrollTop() > 664){  
+	    $('.navbar').addClass("navbar-fixed-top");
+	    $('.about').addClass("fixed-nav");
+	  }
+	  else{
+	    $('.navbar').removeClass("navbar-fixed-top");
+		$('.about').removeClass("fixed-nav");
+	  }
 	});
-
-	$('.hover-area').mouseleave(function(){
-		$(this).fadeTo("slow", 1);
-		$(this).next().fadeTo("slow", 0);
-	});
-
-
-function jumpingImg(){
-	$('#left-align').delay( "10000" )
-		.animate({top: '-100px'}, "6000")
-		.delay( "1000" )
-		.animate({top:"0px"}, "6000");
-
-	$('#center-align').delay( "12000" )
-		.animate({top: '-100px'}, "6000")
-		.delay( "1000" )
-		.animate({top:"0px"}, "6000");
-
-	$('#right-align').delay( "14000" )
-		.animate({top: '-100px'}, "6000")
-		.delay( "1000" )
-		.animate({top:"0px"}, "6000");
-	}
-
-jumpingImg()
-
-
-
-
 
 });
