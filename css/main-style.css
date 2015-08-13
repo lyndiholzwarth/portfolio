@@ -1,4 +1,4 @@
-/*colors: grey:73818c; darkblue: 0f2543;
+/*colors: grey:73818c; darkblue: 0f2543; med-darkblue:294468;
 */
 
 .headerImg{
@@ -21,6 +21,7 @@
 .navbar-default .navbar-nav>li>a{
   color:#fff;
   font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
   padding:15px;
 }
 
@@ -51,20 +52,24 @@
 }
 
 .about.fixed-nav{
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .emphasis{
   font-style: italic;
 }
 
-h1{
+header h1{
   text-align: center;
   width: 100%;
   margin-left:0;
   margin-right: 0;
   margin-top: 30px;
   margin-bottom: 30px;
+  color:#294468;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 40pt;
+  font-weight: 700;
 }
 
 .indent{
