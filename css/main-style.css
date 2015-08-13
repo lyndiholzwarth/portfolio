@@ -16,6 +16,7 @@
   background-color: rgba(71,84,96,0.5);
   border:0;
   margin-top: -50px;
+  z-index: 9998;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -83,3 +84,14 @@ header h1{
   margin-bottom: 50px;
   border: 1px solid #000;
 }
+
+.btn{
+  padding:0;
+}
+
+.modalImg{
+  width:100%;
+}
+
+
+
