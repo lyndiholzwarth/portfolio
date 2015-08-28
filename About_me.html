@@ -1,96 +1,107 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--Javascript main-->
-  <script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <script src="//code.jquery.com/jquery.min.js"></script>
 
-    <!--typewriter plug-in-->
-  <script src="js/typed.js"></script>
-    <script>
-      $(function(){
-          $(".element").typed({
-            strings: ["<h1>Hi, I'm Lyndi"],
-            contentType:"html",
-            typeSpeed: 75,
-          });
-      });
-    </script>
+    <title>Lyndi's Portfolio - Contact and About</title>
 
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <!--font awesome and google fonts-->
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <!--font awesome and google fonts-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!--CSS-->
+      <!--reset-->
+      <link href="css/normalize.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main-style.css">
-  <link rel="stylesheet" type="text/css" href="css/responsive-styles.css">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
   <!--custom javascript-->
-  <script src="js/app.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
-  <title>About Lyndi</title>
 
-</head>
-<body>
-  <nav class="nav-bar">
-    <div class="bar">
-      <div class="nav-content">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="web_mocks.html">Web Mock-Ups</a></li>
-          <li><a href="print.html">Print</a></li>
-          <li><a href="mailto:lyndi.holzwarth@gmail.com">Contact</a></li>
-        </ul>
-        <!--<img class="nav-logo" src="images/logo-color-sm.png" width="85px">-->
-      </div>
-    </div>
-  </nav>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
 
-<div class="masthead"> 
-  <img src="http://i300.photobucket.com/albums/nn8/lyndiholzwarth/alejandroescamilla-book_zps72cbfc77.jpg" class="aboutImg">
-  <div class="quote element"> 
-  </div>
-</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Full Gallery</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-<section class="introduction-section">
-  <h1>Who Am I?</h1>
-    <p class="aboutText">I love gummy bears. I would eat gummy bears for breakfast, lunch and dinner if no one would judge me. But you're probably looking for something a bit more descriptive than that.</p>
-    <p class="aboutText">I have a passion for learning and am constantly trying new things. Whether it is a new recipe, a new crochet or knitting pattern (I learned to knit this year through youtube and online tutorials!), a new computer program or figuring out why a line of code does what it does, I enjoy thinking things out.</p>
-    <p class="aboutText">I'm both logical and creative, but my logical side wins out more often than my creativity, especially when I am learning. This isn't always a bad thing. </p> 
-</section>
+    <div class="container-fluid">
+      <section id="contact">
+        <header><h2 class="pageTop"><a href="mailto:lyndi.holzwarth@gmail.com" class="mailLink">Contact Me</a> or find me on <a href="https://github.com/lyndiholzwarth" class="mailLink">GitHub</a></h2></header>
 
-<section class="questions-section">
-  <h1>More About Me</h1>
-    <h2>What sort of professional background do you have?</h2>
-      <p class="aboutText">I graduated from Penn State University with a Bachelors of Science in Art Education. During my time at college, I focused on studio arts including graphic design. After graduating, I taught for a few years and even though I enjoyed the being with children I realized teaching was not for me. I started getting back into graphic design and began relearning the Adobe Creative Suite. </p>
-      <p class="aboutText">Most recently, I've been learning online through <a href="http://www.thinkful.com" target="blank">thinkful.com</a>. I will be completing their frontend web development course within the next month. From there I plan to continue by taking Frontend AngularJS.</p>
-      <p class="aboutText">In 2010 I was hired by Penny-Dell Publications and learned Quark Xpress 6. I am a desktop publisher who designs both print and digital publications. I freelance on occasion for <a href="http://digitalgravitymedia.com" target="_blank">Digital Gravity Media</a>, a SEO company based in Stamford, CT.</p>
-    <h2>What is your dream job?</h2>
-     <p class="aboutText">My dream job would be with a company where I could design, develop, maintain and update websites. I would want to be constantly challenged and given the opportunity to learn new scripting languages and programs.</p>
-    <h2>What is your design style?</h2>
+         <article>
+      <section id="about">
+        <header><h2 class="subhead" style="padding-bottom:20px">About Me</h2></header>
+          <article id="generalInfo">
+            <p class="aboutText">I love gummy bears. I would eat gummy bears for breakfast, lunch and dinner if no one would judge me. But you're probably looking for something a bit more descriptive than that.</p>
+            <p class="aboutText">I have a passion for learning and am constantly trying new things. Whether it is a new recipe, a new crochet or knitting pattern, a new computer program or figuring out why a line of code does what it does, I enjoy thinking things out. A good challenge excites me.</p>
+            <p class="aboutText">I'm both logical and creative, but my logical side wins out more often than my creativity, especially when I am learning. This isn't always a bad thing. </p> 
+            <p class="aboutText">I believe that we all need a bit of happiness in our lives, whether it is from a web page, a new challenge, a cup of coffee, or a giant handful of gummy bears!</p>
+          </article>
+          <article> <h3>Professional background</h3>
+            <p class="aboutText">I graduated from Penn State University with a Bachelors of Science in Art Education. During my time at college, I focused on studio arts including graphic design. After graduating, I taught for a few years and even though I enjoyed the being with children I realized teaching was not for me. I started getting back into graphic design and began relearning the Adobe Creative Suite. </p>
+            <p class="aboutText">Most recently, I've been learning online through <a href="http://www.thinkful.com" target="blank">thinkful.com</a>. I completed their frontend web development course In July 2015. I have continued my learning at both <a href="http://www.lynda.com" target="blank">Lynda.com</a> and <a href="https://www.codecademy.com/learn" target="blank">Codecademy</a>, as well as reading anything I can get my hands on.</p>
+            <p class="aboutText">In 2010 I was hired by Penny-Dell Publications and learned Quark Xpress 6. I am a desktop publisher who designs both print and digital publications. I freelance on occasion for <a href="http://digitalgravitymedia.com" target="_blank">Digital Gravity Media</a>, a SEO company based in Stamford, CT and on my own.</p>
+          </article>
+          <article><h3>Design style</h3>
       <p class="aboutText">I think all design should be:
         <ul class="designList">
-          <li class="emphasisPoint">User friendly</li>
-            <p class="aboutText indent">Let&#39s be honest, no one likes to be confused. User-friendly design is a must. If no one can understand it, no one will use it, read it, think about it</p>
-          <li class="emphasisPoint">Simple</li>
-            <p class="aboutText indent">Simple and streamlined designs are a must.<br>
+          <li class="emphasisBullet">User friendly</li>
+            <p class="aboutText">Let&#39s be honest, no one likes to be confused. User-friendly design is a must. If no one can understand it, no one will use it, read it, think about it</p>
+          <li class="emphasisBullet">Simple</li>
+            <p class="aboutText">Simple and streamlined designs are a must.<br>
             But design should also make you think. There is a reason we have brains, after all.</p>
-          <li class="emphasisPoint">Satisfy our basic need to communicate</li>
-            <p class="aboutText indent">Imagine a world without paintings, sculptures, books, music; a world where no one communicates. A grey world without creativity, thought, wonder. Pretty boring, right?<br>
+          <li class="emphasisBullet">Satisfy our basic need to communicate</li>
+            <p class="aboutText">Imagine a world without paintings, sculptures, books, music; a world where no one communicates. A grey world without creativity, thought, wonder. Pretty boring, right?<br>
             From cave paintings to digital media, we all just want to share our thoughts. </p>
         </ul>
-</section>
+        </article>
+      </section>
+    </div>
 
-  <footer>
-    <p class="footer-text">Handcrafted with <i class="fa fa-heart"></i> by LH. <br>
-    <a href="mailto:lyndi.holzwarth@gmail.com">Contact me!</a></p>
-    <p class="smallText">Cover image via <a href="https://unsplash.com/"  target="_blank">Unsplash</a></p>
+<footer class="social">
+  <div class="container-fluid">
+    <p class="footer-text">Handcrafted with <i class="fa fa-heart"></i> by L.H. <br>
+    <a href="mailto:lyndi.holzwarth@gmail.com">Contact me!</a><br></p>
+  </div>
 </footer>
-  
-</body>
-</html>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>    
